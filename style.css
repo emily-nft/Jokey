@@ -1,0 +1,66 @@
+/* ROBOT.GIF from Giphy - https://giphy.com/gifs/robot-cinema-4d-eyedesyn-3o7abtn7DuREEpsyWY */
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #45badd;
+  font-family: "Cormorant Infant", serif;
+
+  font-family: "Montserrat", sans-serif;
+
+  font-family: "Roboto", sans-serif;
+
+  font-family: "Source Sans Pro", sans-serif;
+}
+.container {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("./robot.gif");
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+
+  position: relative;
+  bottom: 10px;
+}
+
+button {
+  position: absolute;
+  background-color: #ff0062;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  color: white;
+  font-weight: 900;
+
+  cursor: pointer;
+  margin-top: 50px;
+  padding: 5px;
+}
+button:active {
+  transform: translateY(4px);
+}
+.body {
+  background-color: #ff0062;
+  min-width: 100px;
+  padding: 40px;
+  border-radius: 8px;
+  margin: 10px;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+.fa-comment-dots {
+  left: 103%;
+  bottom: -25px;
+}
+p {
+  color: white;
+}
